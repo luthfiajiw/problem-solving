@@ -9,7 +9,7 @@ function averagePair(arr, targetAvg) {
 
   while (firstPointer < secPointer) {
     let avg = (arr[firstPointer] + arr[secPointer]) / 2;
-    console.log(arr[firstPointer], arr[secPointer])
+
     if (avg === targetAvg) return true
     else if (avg > targetAvg) secPointer--
     else firstPointer++;
@@ -18,4 +18,6 @@ function averagePair(arr, targetAvg) {
   return false;
 }
 
-console.log(averagePair([1,2,3,4], 4))
+averagePair([1,2,3,4], 4)
+
+// result = false
