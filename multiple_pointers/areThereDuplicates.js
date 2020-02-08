@@ -1,4 +1,4 @@
-function areThereDuplicate(...args) {
+function areThereDuplicates(...args) {
   let firstPointer = 0;
   let secPointer = 1;
 
