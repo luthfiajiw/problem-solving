@@ -16,6 +16,6 @@ function areThereDuplicates(...args) {
   return false;
 }
 
-areThereDuplicate(1,5,3,1,4,2);
+console.log(areThereDuplicates(1,5,3,1,4,2));
 
 // result = true
