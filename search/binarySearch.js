@@ -1,3 +1,4 @@
+// O(log n)
 function binarySearch(sortedArr, query) {
   let start = 0;
   let end = sortedArr.length - 1;
@@ -17,4 +18,4 @@ function binarySearch(sortedArr, query) {
   return sortedArr[middle] === query ? middle : -1;
 }
 
-console.log(binarySearch([2,4,6,9,12,15,18], 5));
+binarySearch([2,4,6,9,12,15,18], 5);
